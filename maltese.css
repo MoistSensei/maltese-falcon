@@ -1,0 +1,672 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.container
+{
+height: 720px;
+width: 31%;
+position: absolute;
+left: 32%;
+top: 0%;
+background-color: orangered;
+opacity: 0%;
+z-index: 2000;
+mix-blend-mode: color-burn;
+transition: opacity 1s, animation 12s;
+}
+.container:hover
+
+{
+opacity: 80%;
+}
+
+
+
+
+.cover
+{
+background-image:url("../images/lady - Maltese falcon.jpg");
+background-repeat:no-repeat;
+background-size:contain;
+height: 680px;
+width: 100%;
+position: relative;
+left: 30%;
+z-index: -10;
+animation-name: fadein;
+animation-delay: .3s;
+animation-duration: 5s;
+animation-iteration-count: 1;
+
+}
+
+@keyframes fadein
+{
+0% { opacity: 0%}
+100% {opacity: 100%}
+}
+
+.dashiell
+{
+font-family:"Lexend Giga";
+	font-weight:500;
+	line-height:10px; 
+font-size: 20px;
+	letter-spacing:13px;
+color: #FAEC07;
+position:absolute;
+top: 2%;
+margin-left: 16%;
+z-index: -6;
+}
+
+.H
+{
+font-family:"Bentham";
+font-size: 125px;
+font-weight:600;
+color: #FAEC07;
+	position:absolute;
+top: 3.9%;
+margin-left: 15.25%;
+	z-index: -6;
+}
+
+
+
+
+.ammet
+{
+font-family:"Bentham";
+	letter-spacing:8px; 
+font-size: 30px;
+font-weight:600;
+color: #FAEC07;
+	position:absolute;
+top: 16.9%;
+margin-left: 21.5%;
+	z-index: -6;
+	
+}
+
+.line
+{
+background-color:  #FAEC07;
+height: .4%;
+width: 15%;
+position: absolute;
+top: 7.5%;
+left: 15.75%;
+	z-index: -6;
+}
+
+.the
+{
+font-family: "Bentham";
+font-size: 35px;
+font-weight: 700;
+letter-spacing: 10px;
+color: #FAEC07;
+position: absolute;
+top: 80%;
+margin-left: 5%;
+animation-name: fall;
+animation-direction:normal;
+animation-duration:6s;
+animation-delay: 1s;
+animation-iteration-count: 1;
+}
+@keyframes fall
+{
+0%{top: 0% }	
+100%{top:80% }
+}
+
+
+
+.M
+{
+font-family: "Bentham";
+	font-size: 64px;
+	font-weight: 700;
+letter-spacing: 10px;
+color: #FAEC07;
+position: absolute;
+top: 79%;
+margin-left: 12.5%
+	
+}
+
+.altese
+{
+	font-family: "Bentham";
+	font-size: 40px;
+	font-weight: 700;
+letter-spacing: 13px;
+color: #FAEC07;
+position: absolute;
+top: 80%;
+margin-left: 16.8%;
+animation-name: fadein2;
+animation-delay: 2s;
+animation-duration: 7s;
+animation-iteration-count: 1;
+
+}
+
+@keyframes fadein2
+{
+0% { opacity: 0%}
+100% {opacity: 100%}
+}
+
+
+
+.falcon
+{
+font-family: "Bentham";
+font-size: 40px;
+font-weight: 700;
+letter-spacing: 10px;
+color: #FAEC07;
+position: absolute;
+top: 87%;
+margin-left: 17%;
+animation-name: rise;
+animation-direction:normal;
+animation-duration:6s;
+animation-delay: 1s;
+animation-iteration-count:1;
+}
+@keyframes rise
+{
+0%{top: 130% }	
+100%{top:87% }
+}
+
+
+.review
+{
+font-family:"Lexend Giga";
+font-weight:500;
+line-height:100%; 
+width: 8%;
+word-wrap: break-word;
+text-overflow: inherit; 
+font-size: 80%;
+letter-spacing:0px;
+color: #FAEC07;
+position:absolute;
+top: 57%;
+margin-left: 24%;
+}
+
+.curtain1
+{
+background-color: black;
+width: 5.7%;
+height: 18%;
+position: absolute;
+top: 4%;
+left: 15.5%;
+z-index: 4;
+opacity: 100%;
+animation-name: curtainup;
+animation-direction:normal;
+animation-duration:12s;
+animation-delay: 1s;
+animation-iteration-count:infinite;
+}
+@keyframes curtainup
+{
+0%{height: 18% }	
+50%{height: 0%; }
+100%{height:18% }
+}
+.curtain2
+{
+background-color: black;
+width: 4%;
+height: 18%;
+position: absolute;
+top: 4%;
+left: 21.2%;
+z-index: 4;
+opacity: 100%;
+animation-name: curtaindown;
+animation-direction:normal;
+animation-duration:12s;
+animation-delay: 1.5s;
+animation-iteration-count:infinite;
+}
+@keyframes curtaindown
+{
+0%{height: 18% }	
+50%{height: 0%; }
+100%{height:18% }
+}
+
+
+.curtain3
+{
+background-color: black;
+width: 4%;
+height: 18%;
+position: absolute;
+top: 4%;
+left: 25.2%;
+z-index: 4;
+opacity: 100%;
+	animation-name: curtainup;
+animation-direction:normal;
+animation-duration:12s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+}
+@keyframes curtainup
+{
+0%{height: 18% }	
+50%{height: 0%; }
+100%{height:18% }
+}
+
+
+.curtain4
+{
+background-color: black;
+width: 2.1%;
+height: 18%;
+position: absolute;
+top: 4%;
+left: 29.2%;
+z-index: 4;
+opacity: 100%;
+	animation-name: curtaindown;
+animation-direction:normal;
+animation-duration:12s;
+animation-delay: 1.5s;
+animation-iteration-count:infinite;
+}
+@keyframes curtaindown
+{
+0%{height: 18% }	
+50%{height: 0%; }
+100%{height:18% }
+}
+
+
+.screen1
+{
+background-color: black;
+width: 8%;
+height: 2%;
+position: absolute;
+top: 57%;
+left: 24%;
+opacity: 100%;
+animation-name: slideleft;
+animation-direction:normal;
+animation-duration:12s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+}
+@keyframes slideleft
+{
+0%{width: 8% }
+50% {width:0%}
+100%{width:8% }
+}
+
+.screen2
+{
+background-color: black;
+width: 8%;
+height: 2%;
+position: absolute;
+top: 59%;
+left: 24%;
+opacity: 100%;
+animation-name: slideleft;
+animation-direction:normal;
+animation-duration:12s;
+animation-delay: 1.3s;
+animation-iteration-count: infinite;
+}
+@keyframes slideleft
+{
+0%{width: 8% }
+50% {width:0%}
+100%{width:8% }
+}
+
+
+
+.screen3
+{
+background-color: black;
+width: 8%;
+height: 2%;
+position: absolute;
+top: 61%;
+left: 24%;
+opacity: 100%;
+animation-name: slideleft;
+animation-direction:normal;
+animation-duration:12s;
+animation-delay: 1.3s;
+animation-iteration-count: infinite;
+}
+@keyframes slideleft
+{
+0%{width: 8% }
+50% {width:0%}
+100%{width:8% }
+}
+
+
+.screen4
+{
+background-color: black;
+width: 8%;
+height: 2%;
+position: absolute;
+top: 63%;
+left: 24%;
+opacity: 100%;
+animation-name: slideleft;
+animation-direction:normal;
+animation-duration:12s;
+animation-delay: 1.5s;
+animation-iteration-count: infinite;
+}
+@keyframes slideleft
+{
+0%{width: 8% }
+50% {width:0%}
+100%{width:8% }
+}
+
+
+.screen5
+{
+background-color: black;
+width: 8%;
+height: 2%;
+position: absolute;
+top: 65%;
+left: 24%;
+opacity: 100%;
+animation-name: slideleft;
+animation-direction:normal;
+animation-duration:12s;
+animation-delay: 1.7s;
+animation-iteration-count: infinite;
+}
+@keyframes slideleft
+{
+0%{width: 8% }
+50% {width:0%}
+100%{width:8% }
+}
+
+
+
+.screen6
+{
+background-color: black;
+width: 8%;
+height: 2%;
+position: absolute;
+top: 67%;
+left: 24%;
+opacity: 100%;
+animation-name: slideleft;
+animation-direction:normal;
+animation-duration:12s;
+animation-delay: 1.5s;
+animation-iteration-count: infinite;
+}
+@keyframes slideleft
+{
+0%{width: 8% }
+50% {width:0%}
+100%{width:8% }
+}
+
+
+.screen7
+{
+background-color: black;
+width: 8%;
+height: 2%;
+position: absolute;
+top: 69%;
+left: 24%;
+opacity: 100%;
+animation-name: slideleft;
+animation-direction:normal;
+animation-duration:12s;
+animation-delay: 1.3s;
+animation-iteration-count: infinite;
+}
+@keyframes slideleft
+{
+0%{width: 8% }
+50% {width:0%}
+100%{width:8% }
+}
+
+
+
+.screen8
+{
+background-color: black;
+width: 8%;
+height: 2%;
+position: absolute;
+top: 71%;
+left: 24%;
+opacity: 100%;
+animation-name: slideleft;
+animation-direction:normal;
+animation-duration:12s;
+animation-delay: 1.3s;
+animation-iteration-count: infinite;
+}
+@keyframes slideleft
+{
+0%{width: 8% }
+50% {width:0%}
+100%{width:8% }
+}
+
+
+.screen9
+{
+background-color: black;
+width: 8%;
+height: 2%;
+position: absolute;
+top: 73%;
+left: 24%;
+opacity: 100%;
+animation-name: slideleft;
+animation-direction:normal;
+animation-duration:12s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+}
+@keyframes slideleft
+{
+0%{width: 8% }
+50% {width:0%}
+100%{width:8% }
+}
+
+.yellowtest
+{
+background-color: #FAEC07;
+width: 3.8%;
+height: 0%;
+position: absolute;
+top: 80.5%;
+left: 12.5%;
+opacity: 100%;
+animation-name: slidedown;
+animation-direction:reverse;
+animation-duration:4s;
+animation-delay: .5s;
+animation-iteration-count: 1;
+}
+@keyframes slidedown
+{
+0%{height: 0% }	
+100%{height:9% }
+}
+
+.lizard
+{
+background-image:url("../images/Maltese Falcon 2@0.75x.png");
+background-repeat: no-repeat;
+height: 15%;
+width:15%;
+position: absolute;
+top: 87%;
+left: 5%;
+z-index: 8;
+animation-name: fade3;
+animation-delay: .7s;
+animation-duration: 7s;
+animation-iteration-count: 1;
+transition: left 9s;
+transition-property: all;
+background-blend-mode: difference;
+}
+
+
+
+@keyframes fade3
+{
+0% { opacity: 0%}
+100% {opacity: 100%}
+}
+
+
+
+.tear
+{
+background-color: red;
+width: 2%;
+height: 0%;
+z-index:-8;
+border-bottom-left-radius: 30%;
+border-bottom-right-radius: 30%;
+position: absolute;
+top: 29.4%;
+left: 11.8%;
+opacity: 100%;
+animation-name: teardrop;
+animation-direction:normal;
+animation-duration:12s;
+animation-delay: 7s;
+animation-iteration-count: infinite;
+}
+@keyframes teardrop
+{
+0%{height: 0%;}
+50%{height:100%;}
+100%{height:0% }
+}
+
+.blkeye
+{
+background-color: #171614;
+border-radius: 50%;
+height: 3%;
+width: 3%;
+position: absolute;
+top: 28%;
+left:11.5%;
+z-index: 16;
+opacity: 100%;
+	animation-name: fadein;
+animation-delay: .7s;
+animation-duration: 5s;
+animation-iteration-count: 1;
+
+}
+
+@keyframes fadein
+{
+0% { opacity: 0%}
+100% {opacity: 100%}
+}
+
+.blkeye2
+{
+background-color: #171614;
+border-radius: 50%;
+height: 3%;
+width: 2%;
+position: absolute;
+top: 34%;
+left:21.5%;
+z-index: 16;
+opacity: 100%;
+	animation-name: fadein;
+animation-delay: .7s;
+animation-duration: 5s;
+animation-iteration-count: 1;
+
+}
+
+@keyframes fadein
+{
+0% { opacity: 0%}
+100% {opacity: 100%}
+}
+
+.nose
+{
+background-image: url("../images/Maltese Falcon 2-nose.png");
+background-size:contain;
+background-repeat: no-repeat;
+width: 1000px;
+height: 680px;
+z-index: 15;
+position: absolute;
+top: 0%;
+left: 2.53%;
+}
+
+
+.tear2
+{
+background-color: red;
+width: 2%;
+height: 0%;
+z-index:-8;
+border-bottom-left-radius: 30%;
+border-bottom-right-radius: 30%;
+position: absolute;
+top: 36%;
+left: 21.5%;
+opacity: 100%;
+animation-name: teardrop;
+animation-direction:normal;
+animation-duration:12s;
+animation-delay: 7s;
+animation-iteration-count: infinite;
+}
+@keyframes teardrop
+{
+0%{height: 0%;}
+50%{height:100%;}
+100%{height:0% }
+}
+
+
+
+
